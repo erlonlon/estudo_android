@@ -3,12 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
 
-    <TextView
-        android:layout_width="wrap_content"
+    <Button
+        android:id="@+id/btnCap2"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
-        android:text="@string/hello_world"
-        tools:context=".MainActivity" />
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:onClick="capitulo2OnClick"
+        android:background="#7FFFD4"
+        android:text="Capitulo 2" />
+
+    <Button
+        android:id="@+id/btnCap3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/btnCap2"
+        android:background="#6A5ACD"
+        android:onClick="capitulo3OnClick"
+        android:text="Capitulo 3" />
 
 </RelativeLayout>
